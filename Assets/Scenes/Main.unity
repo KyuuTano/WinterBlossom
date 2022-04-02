@@ -162,7 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca227e859929772997634548ef9c90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 1184316542}
+  followTransform: {fileID: 1184316542}
+  followSpeed: 10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -309,7 +310,8 @@ MonoBehaviour:
   player: {fileID: 1184316542}
   ChunkPrefabs:
   - {fileID: 6732794011772866496, guid: e41c04cb9125cea458723a94222ba8f5, type: 3}
-  chunkHeight: 30
+  chunkHeight: 15
+  spawnOffset: 15
 --- !u!4 &1180028728
 Transform:
   m_ObjectHideFlags: 0

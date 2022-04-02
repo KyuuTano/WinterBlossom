@@ -6,8 +6,8 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] Transform player;
     [SerializeField] GameObject[] ChunkPrefabs;
     public float chunkHeight = 30f;
-
-    const float spawnOffset = 60f;
+    public float spawnOffset = 60f;
+    
     Vector2 currentOffset = Vector2.zero;
     Queue<GameObject> chunkQueue = new Queue<GameObject>();
 
