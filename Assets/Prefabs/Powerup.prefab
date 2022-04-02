@@ -112,5 +112,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1df226c49f48444a57ebcde90656f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowHeightDelta: -1.2
-  snowRiseSpeedDelta: -0.5
+  snowHeightDelta: 0
+  snowRiseSpeedDelta: -3
