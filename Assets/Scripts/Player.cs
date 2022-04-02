@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float airMoveAccel = 1.0f;
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
+    public bool alwaysJump = false;
     public LayerMask groundLayerMask;
     public int defaultLayer = 0;
     public int jumpingLayer = 0;
@@ -53,7 +54,7 @@ public class Player : MonoBehaviour
         {
             velocity.x = moveDir * moveSpeed;
 
-            if (Input.GetButton("Jump"))
+            if (alwaysJump || Input.GetButton("Jump"))
             {
                 velocity.y = jumpSpeed;
             }

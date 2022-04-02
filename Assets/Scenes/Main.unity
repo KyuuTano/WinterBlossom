@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 54776913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -10, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_LocalScale: {x: 100, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 981962460}
   m_RootOrder: 0
@@ -192,7 +192,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -831511605
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -420,6 +420,7 @@ MonoBehaviour:
   baseRiseSpeed: 1
   riseAccel: 0.4
   lerpSpeed: 15
+  minHeight: 1
 --- !u!4 &981962460
 Transform:
   m_ObjectHideFlags: 0
@@ -689,6 +690,7 @@ MonoBehaviour:
   airMoveAccel: 50
   jumpSpeed: 18
   gravity: -40
+  alwaysJump: 1
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 119
