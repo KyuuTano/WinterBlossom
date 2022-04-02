@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
     public LayerMask groundLayerMask;
+    public int defaultLayer = 0;
+    public int jumpingLayer = 0;
+    public Transform colliderTransform;
 
     private Rigidbody2D rb;
 
@@ -34,7 +37,7 @@ public class Player : MonoBehaviour
         if (velocity.y < GroundedVelocityThreshold)
         {
             var groundHit = Physics2D.BoxCast(
-                transform.position, transform.localScale, 
+                colliderTransform.position, colliderTransform.lossyScale, 
                 0f, Vector2.down, GroundedRaycastDistance, 
                 groundLayerMask
             );
@@ -60,6 +63,8 @@ public class Player : MonoBehaviour
             velocity.x += moveDir * airMoveAccel * Time.deltaTime;
             velocity.x = Mathf.Clamp(velocity.x, -moveSpeed, moveSpeed);
         }
+
+        colliderTransform.gameObject.layer = velocity.y > GroundedVelocityThreshold ? jumpingLayer : defaultLayer;
 
         rb.velocity = velocity;
     }
