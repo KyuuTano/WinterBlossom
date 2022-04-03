@@ -30,10 +30,10 @@ public class Snow : MonoBehaviour
         newPosition.y = height;
         transform.position = Vector3.Lerp(transform.position, newPosition, lerpSpeed * Time.deltaTime);
 
-        if (GameManager.IsGameOver) // Temporary so it doesn't block the screen while testing
-        {
-            GameObject.Destroy(this.gameObject);
-        }
+        //if (GameManager.IsGameOver) // Temporary so it doesn't block the screen while testing
+        //{
+        //    Destroy(this.gameObject);
+        // }
     }
 
     public void Nerf(float heightDelta, float speedDelta)

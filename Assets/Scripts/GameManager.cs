@@ -1,17 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static bool IsGameOver { get; set; } = false;
+    //[SerializeField] public static bool IsGameOver = false;
+    public bool IsGameOver;
     public static Snow Snow { get; set; }
 
+    public Text timeText;
+    public Text timeTakenText;
+
+    public double timeStart;
+
+    public GameObject gameOverPanel;
+    public GameObject playerObject;
+    
     private Camera cam;
 
     void Start()
     {
         cam = Camera.main;
+       
     }
 
     void Update()
@@ -22,11 +35,43 @@ public class GameManager : MonoBehaviour
         {
             GameOver();
         }
+        if (!IsGameOver)
+		{
+            timeStart += Time.deltaTime;
+            timeText.text = "Time: " + timeStart.ToString("F2");
+        }
+        
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         IsGameOver = true;
+        float totalTime = (float)timeStart;
+        timeTakenText.text = "Time: " + totalTime.ToString("F2");
         Debug.Log("Game over!");
+        playerObject.SetActive(false);
+        gameOverPanel.SetActive(true);
+    }
+
+    public void OnRetryClicked()
+	{
+        IsGameOver = false;
+        ResetGame();
+	}
+
+    public void OnMainMenuClicked()
+	{
+        SceneManager.LoadScene("Title");
+	}
+    
+    private void ResetGame()
+	{
+        SceneManager.LoadScene("Main");
+
+        //IsGameOver = false;
+        //gameOverPanel.SetActive(false);
+        //playerObject.gameObject.SetActive(true);
+        //timeStart = 0;
+        
     }
 }
