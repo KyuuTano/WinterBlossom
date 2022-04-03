@@ -12,11 +12,20 @@ public class PillarboxController : MonoBehaviour
     {
         Camera cam = Camera.main;
         float camHeight = cam.orthographicSize;
-        Vector3 boxSize = new Vector3(Mathf.Max(cam.aspect - gameAspect, 0.0f), 2.0f, 1.0f) * camHeight;
-        Vector3 boxPosition = new Vector3(cam.aspect * camHeight - boxSize.x / 2.0f, 0.0f, 0.0f);
-        leftBox.localScale = boxSize;
-        rightBox.localScale = boxSize;
-        leftBox.localPosition = -boxPosition;
-        rightBox.localPosition = boxPosition;
+        float deltaAspect = cam.aspect - gameAspect;
+
+        if (deltaAspect > 0.0f)
+        {
+            Vector3 boxSize = new Vector3(Mathf.Max(deltaAspect, 0.0f), 2.0f, 1.0f) * camHeight;
+            Vector3 boxPosition = new Vector3(cam.aspect * camHeight - boxSize.x / 2.0f, 0.0f, 0.0f);
+            
+            leftBox.localScale = boxSize;
+            leftBox.localPosition = -boxPosition;
+            leftBox.gameObject.SetActive(true);
+
+            rightBox.localScale = boxSize;
+            rightBox.localPosition = boxPosition;
+            rightBox.gameObject.SetActive(true);
+        }
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class Platform : MonoBehaviour
 {
     [SerializeField] SpriteRenderer grassOverlay;
-    const float distanceToFreeze = 5f;
+    [SerializeField] float distanceToFreeze = 5f;
 
     void Update()
     {
