@@ -18,7 +18,7 @@ public class TitleAnimation : MonoBehaviour
     [SerializeField] VerticalLayoutGroup buttonLayout;
     [SerializeField] float buttonDuration;
 
-    void OnEnable()
+    void Start()
     {
         buttonGroup.alpha = 0f;
         titleImageRect.anchoredPosition = startPosition;
