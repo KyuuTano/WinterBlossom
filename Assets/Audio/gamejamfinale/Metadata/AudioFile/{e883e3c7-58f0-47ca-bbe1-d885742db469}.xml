@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e883e3c7-58f0-47ca-bbe1-d885742db469}">
+		<property name="assetPath">
+			<value>bleepsandbloops1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>179.85090702947846</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{65220d4c-b846-4f02-8008-e30c3c2ee86d}</destination>
+		</relationship>
+	</object>
+</objects>
