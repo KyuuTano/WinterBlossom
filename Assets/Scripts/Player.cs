@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 1.0f;
     public float airMoveAccel = 1.0f;
+    public float airDrag = 200.0f;
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
     public bool alwaysJump = false;
+
+    [Header("Other")]
     public LayerMask groundLayerMask;
     public int defaultLayer = 0;
     public int jumpingLayer = 0;
@@ -23,6 +27,7 @@ public class Player : MonoBehaviour
 
     private const float GroundedVelocityThreshold = 0.01f;
     private const float GroundedRaycastDistance = 0.04f;
+    private const float MovementThreshold = 0.01f;
 
     void Start()
     {
@@ -61,8 +66,20 @@ public class Player : MonoBehaviour
         }
         else
         {
-            velocity.x += moveDir * airMoveAccel * Time.deltaTime;
-            velocity.x = Mathf.Clamp(velocity.x, -moveSpeed, moveSpeed);
+            if (Mathf.Abs(moveDir) > MovementThreshold)
+            {
+                velocity.x += moveDir * airMoveAccel * Time.deltaTime;
+                velocity.x = Mathf.Clamp(velocity.x, -moveSpeed, moveSpeed);
+            }
+            else
+            {
+                // Constant deceleration
+                // velocity.x = Mathf.Sign(velocity.x) * 
+                //     Mathf.Max(Mathf.Abs(velocity.x) - airDecel * Time.deltaTime, 0.0f);
+
+                // Exponential deceleration
+                velocity.x *= Mathf.Pow(1.0f / airDrag, Time.deltaTime);
+            }
         }
 
         colliderTransform.gameObject.layer = velocity.y > GroundedVelocityThreshold ? jumpingLayer : defaultLayer;
