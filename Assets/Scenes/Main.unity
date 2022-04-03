@@ -270,9 +270,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -831511605
+  m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -392,10 +392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4afb2d486cc78965b92dcd1031257b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsGameOver: 0
   timeText: {fileID: 26995615}
   timeTakenText: {fileID: 826849447}
   timeStart: 0
-  totalTime: 0
   gameOverPanel: {fileID: 1336295949}
   playerObject: {fileID: 1184316537}
 --- !u!4 &317403367
@@ -766,7 +766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980196714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.48333335, z: 0}
+  m_LocalPosition: {x: 0, y: -0.908, z: 0}
   m_LocalScale: {x: 1, y: 0.03333334, z: 1}
   m_Children: []
   m_Father: {fileID: 1184316542}
@@ -889,7 +889,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.12171537}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -900,7 +900,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.2434307}
   m_EdgeRadius: 0
 --- !u!1001 &1058698394
 PrefabInstance:
@@ -1130,6 +1130,10 @@ MonoBehaviour:
   - {fileID: 6732794011772866496, guid: e41c04cb9125cea458723a94222ba8f5, type: 3}
   chunkHeight: 15
   spawnOffset: 15
+  platformFreezeDistance: 0
+  frozenGrassSprite: {fileID: 21300000, guid: a5f824478ad02784b98cd5c8a44b9dd4, type: 3}
+  freshGrassSprite: {fileID: 21300000, guid: 717222513f3371c44b58950d27e36685, type: 3}
+  platformSprites: []
 --- !u!4 &1180028728
 Transform:
   m_ObjectHideFlags: 0
@@ -1177,6 +1181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   airMoveAccel: 50
+  airDrag: 200
   jumpSpeed: 18
   gravity: -40
   alwaysJump: 1
@@ -1247,7 +1252,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba15343db73663646b4e50436f3f9a2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1267,7 +1272,7 @@ Transform:
   m_GameObject: {fileID: 1184316537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.5, z: 0}
-  m_LocalScale: {x: 1, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 980196715}
   - {fileID: 1016607736}
