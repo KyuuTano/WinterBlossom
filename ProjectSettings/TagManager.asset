@@ -14,7 +14,7 @@ TagManager:
   - Platform
   - Player
   - Player Jumping
-  - 
+  - Game Over
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Gameover
+    uniqueID: 3734771903
     locked: 0
