@@ -974,7 +974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e0214003efedacaa61e67ecb62e969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollMaterial: {fileID: 2100000, guid: e382c3a7c5b63f908914a7ec3d32a42e, type: 2}
   scrollFactor: 0.3
 --- !u!1 &1705708140
 GameObject:

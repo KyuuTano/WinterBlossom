@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class ParallaxBackground : MonoBehaviour
 {
-    public Material scrollMaterial;
     public float scrollFactor = 0.5f;
+
+    private Material scrollMaterial;
+
+    void Start()
+    {
+        scrollMaterial = GetComponent<MeshRenderer>().material;
+    }
 
     void LateUpdate()
     {
