@@ -1,11 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Powerup : MonoBehaviour
 {
     public float snowHeightDelta = -1f;
     public float snowRiseSpeedDelta = -1f;
+
+    [Range(0f, 1f)]
+    [SerializeField] float chanceToSpawn = 1f;
+
+    void Awake()
+    {
+        var rand = Random.Range(0f, 1f);
+        if (rand > chanceToSpawn) Destroy(gameObject);
+    }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
