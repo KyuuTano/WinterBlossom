@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1df226c49f48444a57ebcde90656f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowHeightDelta: 0
+  snowHeightDelta: -10
   snowRiseSpeedDelta: -3
 --- !u!114 &-5755817329426341869
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
       Data4: -443093898
     Path: event:/Sound Effects/Powerup
   Event: 
-  PlayEvent: 2
+  PlayEvent: 5
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
