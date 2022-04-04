@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -10,7 +8,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         Vector3 newPosition = transform.position;
-        newPosition.y = followTransform.position.y;
+        newPosition.y = Mathf.Max(followTransform.position.y, transform.position.y);
         transform.position = Vector3.Lerp(transform.position, newPosition, followSpeed * Time.deltaTime);
     }
 }
