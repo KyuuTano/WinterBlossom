@@ -9,7 +9,6 @@ using DG.Tweening;
 public class GameManager : MonoBehaviour
 {
     //[SerializeField] public static bool IsGameOver = false;
-    [SerializeField] private float panelMoveUpValue;
 
     public bool IsGameOver;
     public bool isGamePaused = false;
@@ -71,14 +70,11 @@ public class GameManager : MonoBehaviour
         int myscore = Mathf.RoundToInt(totalTime * scoreMultiplier);
         timeText.gameObject.SetActive(false);
 
-
         AnimateFading();
         AnimatePanel();
 
-
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
         scoreText.text = "Score: " + myscore;
-
 
         RecordHighScore(myscore);
         //Debug.Log("Game over!");
@@ -89,8 +85,6 @@ public class GameManager : MonoBehaviour
         pauseButton.SetActive(false);
         GameMusic.SetActive(false);
         DeathMusic.SetActive(true);
-
-
     }
 
     private void AnimateFading()
@@ -99,8 +93,7 @@ public class GameManager : MonoBehaviour
     }
     private void AnimatePanel()
     {
-        gameOverPanel.transform.DOMoveY(panelMoveUpValue, 1.5f).SetEase(Ease.InOutBack);
-
+        gameOverPanel.transform.DOLocalMoveY(0, 1.5f).SetEase(Ease.InOutBack);
     }
     public void OnRetryClicked()
     {
