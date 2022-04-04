@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject GameMusic;
     [SerializeField] GameObject DeathMusic;
 
+    public static Action OnPowerupCollected;
+
     void Start()
     {
         cam = Camera.main;
@@ -68,15 +70,15 @@ public class GameManager : MonoBehaviour
         float totalTime = (float)timeStart;
         int myscore = Mathf.RoundToInt(totalTime * scoreMultiplier);
         timeText.gameObject.SetActive(false);
-       
+
 
         AnimateFading();
         AnimatePanel();
 
-       
+
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
         scoreText.text = "Score: " + myscore;
-        
+
 
         RecordHighScore(myscore);
         //Debug.Log("Game over!");
@@ -88,17 +90,17 @@ public class GameManager : MonoBehaviour
         GameMusic.SetActive(false);
         DeathMusic.SetActive(true);
 
-        
+
     }
 
     private void AnimateFading()
-	{
+    {
         fadePanel.GetComponent<Image>().DOFade(fadeAlphaValue / 255f, .5f);
-	}
+    }
     private void AnimatePanel()
-	{
+    {
         gameOverPanel.transform.DOMoveY(panelMoveUpValue, 1.5f).SetEase(Ease.InOutBack);
-        
+
     }
     public void OnRetryClicked()
     {
