@@ -202,6 +202,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26995613}
   m_CullTransparentMesh: 1
+--- !u!1 &37116501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5671314089056057314, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+  m_PrefabInstance: {fileID: 132404681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &37116502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37116501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8479b56d6b34304f926583342816644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: Windiness
+  value: 0
+  emitter: {fileID: 37116503}
+  distanceToFreeze: 20
+  playerTransform: {fileID: 1184316542}
+--- !u!114 &37116503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+  m_PrefabInstance: {fileID: 132404681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37116501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &51728732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -260,6 +293,119 @@ PrefabInstance:
     - target: {fileID: 5671314089056057314, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Music/Ingame Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1816592715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1316809049
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 237931944
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1579929559
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Intensity
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+--- !u!1001 &132404681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057314, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_Name
+      value: Ambience Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Sound Effects/Ambience
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1118629876
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1083672695
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -1686929761
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -2026339573
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Windiness
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
@@ -377,6 +523,8 @@ MonoBehaviour:
   timeStart: 0
   gameOverPanel: {fileID: 1336295949}
   playerObject: {fileID: 1184316537}
+  GameMusic: {fileID: 1212433221}
+  DeathMusic: {fileID: 381236298}
 --- !u!4 &317403367
 Transform:
   m_ObjectHideFlags: 0
@@ -1285,8 +1433,6 @@ MonoBehaviour:
   emitter: {fileID: 1212433223}
   distanceToFreeze: 30
   playerTransform: {fileID: 1184316542}
-  gm: {fileID: 317403366}
-  deathMusicPlayer: {fileID: 381236298}
 --- !u!114 &1212433223 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
