@@ -88,9 +88,7 @@ public class GameManager : MonoBehaviour
 
     private void ResetGame()
     {
-        // Use this function while merging!!
-        // SceneManager.LoadScene("Main");
-        SceneManager.LoadScene("Add Pause Menu, High Score");
+        SceneManager.LoadScene("Main");
     }
 
     public void PauseOrResumeGame()
