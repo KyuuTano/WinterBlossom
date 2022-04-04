@@ -11,13 +11,16 @@ public class Player : MonoBehaviour
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
     public bool alwaysJump = false;
+    public bool alwaysUseMouse = false;
     public AnimationCurve mouseMoveCurve;
+    public float rotationFactor = 1.0f;
 
     [Header("Other")]
     public LayerMask groundLayerMask;
     public int defaultLayer = 0;
     public int jumpingLayer = 0;
     public Transform colliderTransform;
+    public Transform spriteTransform;
 
     private Rigidbody2D rb;
 
@@ -57,7 +60,7 @@ public class Player : MonoBehaviour
         // Handle manual movement
         float moveDir = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetMouseButton(0))
+        if (alwaysUseMouse || Input.GetMouseButton(0))
         {
             float mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
             float mouseDeltaX = mouseWorldPos - transform.position.x;
@@ -92,6 +95,7 @@ public class Player : MonoBehaviour
         }
 
         colliderTransform.gameObject.layer = velocity.y > GroundedVelocityThreshold ? jumpingLayer : defaultLayer;
+        spriteTransform.localEulerAngles = new Vector3(0.0f, 0.0f, -velocity.x * rotationFactor);
 
         rb.velocity = velocity;
     }
