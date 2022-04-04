@@ -20,13 +20,14 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
     public Text highScoreText;
 
-    public double timeStart;
+    private double timeStart;
 
     public GameObject gameOverPanel;
     public GameObject pausePanel;
     public GameObject playerObject;
     public GameObject pauseButton;
     public GameObject fadePanel;
+    public GameObject snow;
 
     public int scoreMultiplier;
     public int fadeAlphaValue;
@@ -66,12 +67,16 @@ public class GameManager : MonoBehaviour
         IsGameOver = true;
         float totalTime = (float)timeStart;
         int myscore = Mathf.RoundToInt(totalTime * scoreMultiplier);
+        timeText.gameObject.SetActive(false);
+       
 
         AnimateFading();
         AnimatePanel();
 
+       
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
         scoreText.text = "Score: " + myscore;
+        
 
         RecordHighScore(myscore);
         //Debug.Log("Game over!");
@@ -82,6 +87,8 @@ public class GameManager : MonoBehaviour
         pauseButton.SetActive(false);
         GameMusic.SetActive(false);
         DeathMusic.SetActive(true);
+
+        
     }
 
     private void AnimateFading()
@@ -91,7 +98,8 @@ public class GameManager : MonoBehaviour
     private void AnimatePanel()
 	{
         gameOverPanel.transform.DOMoveY(panelMoveUpValue, 1.5f).SetEase(Ease.InOutBack);
-	}
+        
+    }
     public void OnRetryClicked()
     {
         ResetGame();
@@ -117,6 +125,7 @@ public class GameManager : MonoBehaviour
             isGamePaused = true;
             pausePanel.SetActive(true);
             pauseButton.SetActive(false);
+            timeText.gameObject.SetActive(false);
             Time.timeScale = 0;
         }
         else
@@ -124,6 +133,7 @@ public class GameManager : MonoBehaviour
             isGamePaused = false;
             pausePanel.SetActive(false);
             pauseButton.SetActive(true);
+            timeText.gameObject.SetActive(true);
             Time.timeScale = 1;
         }
     }
