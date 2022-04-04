@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     public Transform spriteTransform;
 
     private Rigidbody2D rb;
+    private Animator animator;
 
     // for debugging in Editor
     private Vector2 velocity;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -74,6 +76,7 @@ public class Player : MonoBehaviour
             if (alwaysJump || Input.GetButton("Jump"))
             {
                 velocity.y = jumpSpeed;
+                animator.SetTrigger("Jump");
             }
         }
         else
