@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 1625089221907282380}
   - component: {fileID: 1625089221907282377}
   - component: {fileID: 1625089221907282376}
+  - component: {fileID: 1184316538}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -199,6 +200,25 @@ MonoBehaviour:
   jumpingLayer: 8
   colliderTransform: {fileID: 1625089223732418777}
   spriteTransform: {fileID: 5266830}
+--- !u!95 &1184316538
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625089221907282379}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5d210d7c82046fb884756137d58a1d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1625089223685469765
 GameObject:
   m_ObjectHideFlags: 0
