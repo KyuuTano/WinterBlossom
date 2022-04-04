@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5671314089056057312}
   - component: {fileID: 5671314089056057315}
-  - component: {fileID: 5671314089056057313}
   m_Layer: 0
   m_Name: Music Player
   m_TagString: Untagged
@@ -47,11 +46,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1816592715
-      Data2: 1316809049
-      Data3: 237931944
-      Data4: -1579929559
-    Path: event:/New Event
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -61,20 +60,8 @@ MonoBehaviour:
   Params:
   - Name: Parameter 1
     Value: 0
+  - Name: Intensity
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &5671314089056057313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5671314089056057314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8479b56d6b34304f926583342816644, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameter1: 0
-  emitter: {fileID: 5671314089056057315}

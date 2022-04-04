@@ -2,12 +2,19 @@ using UnityEngine;
 
 public class AdaptiveBGM : MonoBehaviour
 {
+    [SerializeField] string parameterName;
     [Range(0f, 1f)]
-    [SerializeField] float parameter1 = 0;
+    [SerializeField] float value;
     [SerializeField] FMODUnity.StudioEventEmitter emitter;
+    [SerializeField] float distanceToFreeze = 5f;
+    [SerializeField] Transform playerTransform;
 
     void Update()
     {
-        emitter.SetParameter("Parameter 1", parameter1);
+        var distance = playerTransform.position.y - GameManager.Snow.transform.position.y;
+        value = 1 - Mathf.Clamp(distance / distanceToFreeze, 0f, 1f);
+        emitter.SetParameter(parameterName, value);
     }
+
+
 }
