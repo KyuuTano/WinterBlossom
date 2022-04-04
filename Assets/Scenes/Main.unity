@@ -1793,6 +1793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1184316542}
+  InitialChunkPrefabs: []
   ChunkPrefabs:
   - {fileID: 6732794011772866496, guid: e41c04cb9125cea458723a94222ba8f5, type: 3}
   chunkHeight: 15
@@ -2501,7 +2502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e0214003efedacaa61e67ecb62e969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollFactor: 0.3
+  scrollFactor: 0.2
 --- !u!23 &1484837360
 MeshRenderer:
   m_ObjectHideFlags: 0
