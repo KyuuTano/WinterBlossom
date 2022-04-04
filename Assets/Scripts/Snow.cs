@@ -8,6 +8,7 @@ public class Snow : MonoBehaviour
     public float riseAccel = 1.0f;
     public float lerpSpeed = 50.0f;
 
+    public GameManager gm;
     public float Height { get => height; }
 
     [SerializeField] float MaxSpeed = 4f;
@@ -25,17 +26,18 @@ public class Snow : MonoBehaviour
 
     void Update()
     {
-        height += riseSpeed * Time.deltaTime;
-        riseSpeed += Mathf.Min(riseAccel * Time.deltaTime, MaxSpeed);
+        if (!gm.IsGameOver)
+        {
+            height += riseSpeed * Time.deltaTime;
+            riseSpeed += Mathf.Min(riseAccel * Time.deltaTime, MaxSpeed);
 
-        Vector3 newPosition = transform.position;
-        newPosition.y = height;
-        transform.position = Vector3.Lerp(transform.position, newPosition, lerpSpeed * Time.deltaTime);
+            Vector3 newPosition = transform.position;
+            newPosition.y = height;
+            transform.position = Vector3.Lerp(transform.position, newPosition, lerpSpeed * Time.deltaTime);
+        }
 
-        //if (GameManager.IsGameOver) // Temporary so it doesn't block the screen while testing
-        //{
-        //    Destroy(this.gameObject);
-        // }
+
+
     }
 
     public void Nerf(float heightDelta, float speedDelta)
