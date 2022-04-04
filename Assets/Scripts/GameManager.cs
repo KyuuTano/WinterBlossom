@@ -4,10 +4,13 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
     //[SerializeField] public static bool IsGameOver = false;
+    [SerializeField] private float panelMoveUpValue;
+
     public bool IsGameOver;
     public bool isGamePaused = false;
     public static Snow Snow { get; set; }
@@ -23,8 +26,10 @@ public class GameManager : MonoBehaviour
     public GameObject pausePanel;
     public GameObject playerObject;
     public GameObject pauseButton;
+    public GameObject fadePanel;
 
     public int scoreMultiplier;
+    public int fadeAlphaValue;
 
     private Camera cam;
 
@@ -62,6 +67,9 @@ public class GameManager : MonoBehaviour
         float totalTime = (float)timeStart;
         int myscore = Mathf.RoundToInt(totalTime * scoreMultiplier);
 
+        AnimateFading();
+        AnimatePanel();
+
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
         scoreText.text = "Score: " + myscore;
 
@@ -76,6 +84,14 @@ public class GameManager : MonoBehaviour
         DeathMusic.SetActive(true);
     }
 
+    private void AnimateFading()
+	{
+        fadePanel.GetComponent<Image>().DOFade(fadeAlphaValue / 255f, .5f);
+	}
+    private void AnimatePanel()
+	{
+        gameOverPanel.transform.DOMoveY(panelMoveUpValue, 1.5f).SetEase(Ease.InOutBack);
+	}
     public void OnRetryClicked()
     {
         ResetGame();
@@ -88,6 +104,9 @@ public class GameManager : MonoBehaviour
 
     private void ResetGame()
     {
+        //SceneManager.LoadScene("Replace Game Panel Sprites");
+
+        //USE THIS FUNCTION AFTER MERGING!!!
         SceneManager.LoadScene("Main");
     }
 
