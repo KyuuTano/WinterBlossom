@@ -24,14 +24,17 @@ public class GameManager : MonoBehaviour
     public GameObject playerObject;
     public GameObject pauseButton;
 
+    public int scoreMultiplier;
+
     private Camera cam;
 
-    public int scoreMultiplier;
+    [SerializeField] GameObject GameMusic;
+    [SerializeField] GameObject DeathMusic;
 
     void Start()
     {
         cam = Camera.main;
-       
+
     }
 
     void Update()
@@ -39,19 +42,18 @@ public class GameManager : MonoBehaviour
         float camTop = cam.transform.position.y + cam.orthographicSize;
 
         if (!IsGameOver)
-		{
+        {
             if (Snow.Height > camTop)
-			{
+            {
                 GameOver();
-			}
+            }
             timeStart += Time.deltaTime;
             timeText.text = "Time: " + timeStart.ToString("F2");
         }
 
         if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Space))
             PauseOrResumeGame();
-        
-        
+
     }
 
     public void GameOver()
@@ -62,7 +64,7 @@ public class GameManager : MonoBehaviour
 
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
         scoreText.text = "Score: " + myscore;
-        
+
         RecordHighScore(myscore);
         //Debug.Log("Game over!");
         highScoreText.text = "High Score: " + PlayerPrefs.GetInt("High Score");
@@ -70,51 +72,53 @@ public class GameManager : MonoBehaviour
         playerObject.SetActive(false);
         gameOverPanel.SetActive(true);
         pauseButton.SetActive(false);
+        GameMusic.SetActive(false);
+        DeathMusic.SetActive(true);
     }
 
     public void OnRetryClicked()
-	{
+    {
         ResetGame();
-	}
+    }
 
     public void OnMainMenuClicked()
-	{
+    {
         QuitGame();
-	}
-    
+    }
+
     private void ResetGame()
-	{
+    {
         // Use this function while merging!!
         // SceneManager.LoadScene("Main");
         SceneManager.LoadScene("Add Pause Menu, High Score");
     }
 
-	public void PauseOrResumeGame()
-	{
-		if (!isGamePaused)
-		{
+    public void PauseOrResumeGame()
+    {
+        if (!isGamePaused)
+        {
             isGamePaused = true;
             pausePanel.SetActive(true);
             pauseButton.SetActive(false);
             Time.timeScale = 0;
-		} 
+        }
         else
-		{
+        {
             isGamePaused = false;
             pausePanel.SetActive(false);
             pauseButton.SetActive(true);
             Time.timeScale = 1;
-		}
-	}
+        }
+    }
 
     public void QuitGame()
-	{
+    {
         SceneManager.LoadScene("Title");
     }
 
     private void RecordHighScore(int highscore)
-	{
+    {
         if (highscore > PlayerPrefs.GetInt("High Score"))
             PlayerPrefs.SetInt("High Score", highscore);
-	}
+    }
 }
