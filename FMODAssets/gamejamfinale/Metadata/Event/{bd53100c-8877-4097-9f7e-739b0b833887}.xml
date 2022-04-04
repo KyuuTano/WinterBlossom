@@ -218,7 +218,6 @@
 		<property name="length">
 			<value>48</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{2bb34a39-77ad-4b7a-b68d-9fb9256735ce}</destination>
 		</relationship>
@@ -373,7 +372,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="curveShape">
 			<value>0.561899364</value>
@@ -403,7 +402,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3fb1a5ce-d135-408c-8c00-e7a6de625489}">
@@ -422,7 +421,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>8</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c3add0a7-3eb2-400f-b5ad-02088fb53389}">
