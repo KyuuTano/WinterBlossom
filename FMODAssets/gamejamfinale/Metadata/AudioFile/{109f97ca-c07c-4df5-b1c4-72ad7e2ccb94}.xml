@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{109f97ca-c07c-4df5-b1c4-72ad7e2ccb94}">
+		<property name="assetPath">
+			<value>ambience wintery.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>48.096439909297054</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{65220d4c-b846-4f02-8008-e30c3c2ee86d}</destination>
+		</relationship>
+	</object>
+</objects>
