@@ -4,12 +4,14 @@ using System.Collections.Generic;
 public class LevelGenerator : MonoBehaviour
 {
     [SerializeField] Transform player;
+    [SerializeField] GameObject[] InitialChunkPrefabs;
     [SerializeField] GameObject[] ChunkPrefabs;
     public float chunkHeight = 30f;
     public float spawnOffset = 60f;
 
     Vector2 currentOffset = Vector2.zero;
     Queue<GameObject> chunkQueue = new Queue<GameObject>();
+    int chunkIndex = 0;
 
     void Update()
     {
@@ -21,7 +23,12 @@ public class LevelGenerator : MonoBehaviour
 
     void SpawnNextChunk()
     {
-        var chunk = ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)];
+        var chunk = chunkIndex < InitialChunkPrefabs.Length ?
+            InitialChunkPrefabs[chunkIndex] : 
+            ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)];
+        
+        chunkIndex += 1;
+
         var instance = Instantiate(chunk, currentOffset, Quaternion.identity, transform);
         currentOffset.y += chunkHeight;
         chunkQueue.Enqueue(instance);
