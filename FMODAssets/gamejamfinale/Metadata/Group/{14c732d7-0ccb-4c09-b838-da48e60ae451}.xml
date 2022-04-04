@@ -2,11 +2,8 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{14c732d7-0ccb-4c09-b838-da48e60ae451}">
 		<property name="name">
-			<value>Ambient Bus</value>
+			<value>Sound Effect Bus</value>
 		</property>
-		<relationship name="masters">
-			<destination>{2641fb43-5d76-45e5-847c-55eedb007ae1}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{679bd6f8-0984-4f34-b4bc-99195dfa51e4}</destination>
 		</relationship>
