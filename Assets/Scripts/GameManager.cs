@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject GameMusic;
     [SerializeField] GameObject DeathMusic;
 
+    public static Action OnPowerupCollected;
+
     void Start()
     {
         cam = Camera.main;
@@ -83,7 +85,6 @@ public class GameManager : MonoBehaviour
         pauseButton.SetActive(false);
         GameMusic.SetActive(false);
         DeathMusic.SetActive(true);
-
     }
 
     private void AnimateFading()
@@ -110,6 +111,7 @@ public class GameManager : MonoBehaviour
 
         //USE THIS FUNCTION AFTER MERGING!!!
         SceneManager.LoadScene("Main");
+        DOTween.KillAll();
     }
 
     public void PauseOrResumeGame()
@@ -136,6 +138,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Title");
+        DOTween.KillAll();
     }
 
     private void RecordHighScore(int highscore)

@@ -26,6 +26,7 @@ public class Powerup : MonoBehaviour
     private void Activate()
     {
         GameManager.Snow.Nerf(snowHeightDelta, snowRiseSpeedDelta);
+        GameManager.OnPowerupCollected?.Invoke();
         GameObject.Destroy(this.gameObject);
     }
 }
