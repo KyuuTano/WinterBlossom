@@ -200,6 +200,7 @@ MonoBehaviour:
   jumpingLayer: 8
   colliderTransform: {fileID: 1625089223732418777}
   spriteTransform: {fileID: 5266830}
+  fmodJumpEvent: event:/Sound Effects/Jump
 --- !u!95 &1184316538
 Animator:
   serializedVersion: 3
