@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snowHeightDelta: -10
   snowRiseSpeedDelta: -3
-  chanceToSpawn: 1
+  chanceToSpawn: 0.5
 --- !u!114 &-5755817329426341869
 MonoBehaviour:
   m_ObjectHideFlags: 0
