@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
     public bool alwaysJump = false;
+    public AnimationCurve mouseMoveCurve;
 
     [Header("Other")]
     public LayerMask groundLayerMask;
@@ -55,6 +56,14 @@ public class Player : MonoBehaviour
 
         // Handle manual movement
         float moveDir = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetMouseButton(0))
+        {
+            float mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+            float mouseDeltaX = mouseWorldPos - transform.position.x;
+            moveDir = Mathf.Sign(mouseDeltaX) * mouseMoveCurve.Evaluate(Mathf.Abs(mouseDeltaX));
+        }
+
         if (isGrounded)
         {
             velocity.x = moveDir * moveSpeed;
