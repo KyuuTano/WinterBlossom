@@ -539,7 +539,6 @@ MonoBehaviour:
   gameOverPanel: {fileID: 1336295949}
   pausePanel: {fileID: 1966947035}
   playerObject: {fileID: 1184316537}
-  pauseButton: {fileID: 0}
   fadePanel: {fileID: 941208541}
   snow: {fileID: 0}
   scoreMultiplier: 20
@@ -925,6 +924,18 @@ MonoBehaviour:
       - m_Target: {fileID: 317403366}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1990935253}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2095,6 +2106,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1990935253}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1240248197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2218,6 +2241,18 @@ MonoBehaviour:
       - m_Target: {fileID: 317403366}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PauseOrResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1990935253}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2516,6 +2551,95 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484837357}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1545264674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057312, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057314, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: m_Name
+      value: Click Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: PlayEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: Params.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Sound Effects/Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1142508420
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1164885684
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1322619534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1461551808
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
 --- !u!1 &1562925966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,6 +2788,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1990935253 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5671314089056057315, guid: e1c27c7ebfb44174db4ba21f0ac9e577, type: 3}
+  m_PrefabInstance: {fileID: 1545264674}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2058323927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2986,6 +3121,18 @@ MonoBehaviour:
       - m_Target: {fileID: 317403366}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnRetryClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1990935253}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
