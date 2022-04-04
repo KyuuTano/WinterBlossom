@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a3696187-dfbc-4f44-8247-9518fb97b6ff}">
+		<property name="assetPath">
+			<value>ice grow.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>45.622358276643993</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{65220d4c-b846-4f02-8008-e30c3c2ee86d}</destination>
+		</relationship>
+	</object>
+</objects>
