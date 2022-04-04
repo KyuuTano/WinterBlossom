@@ -5,7 +5,7 @@ public class LevelGenerator : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] GameObject[] InitialChunkPrefabs;
-    [SerializeField] GameObject[] RandomChunkPrefabs;
+    [SerializeField] GameObject[] ChunkPrefabs;
     public float chunkHeight = 30f;
     public float spawnOffset = 60f;
 
@@ -25,7 +25,7 @@ public class LevelGenerator : MonoBehaviour
     {
         var chunk = chunkIndex < InitialChunkPrefabs.Length ?
             InitialChunkPrefabs[chunkIndex] : 
-            RandomChunkPrefabs[Random.Range(0, RandomChunkPrefabs.Length)];
+            ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)];
         
         chunkIndex += 1;
 
