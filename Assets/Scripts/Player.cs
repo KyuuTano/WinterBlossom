@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public int jumpingLayer = 0;
     public Transform colliderTransform;
     public Transform spriteTransform;
+    public string fmodJumpEvent;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -49,8 +50,8 @@ public class Player : MonoBehaviour
         if (velocity.y < GroundedVelocityThreshold)
         {
             var groundHit = Physics2D.BoxCast(
-                colliderTransform.position, colliderTransform.lossyScale, 
-                0f, Vector2.down, GroundedRaycastDistance, 
+                colliderTransform.position, colliderTransform.lossyScale,
+                0f, Vector2.down, GroundedRaycastDistance,
                 groundLayerMask
             );
             isGrounded = (groundHit.collider != null);
@@ -77,6 +78,7 @@ public class Player : MonoBehaviour
             {
                 velocity.y = jumpSpeed;
                 animator.SetTrigger("Jump");
+                FMODUnity.RuntimeManager.PlayOneShot(fmodJumpEvent);
             }
         }
         else

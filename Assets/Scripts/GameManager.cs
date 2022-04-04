@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject pausePanel;
     public GameObject playerObject;
-    public GameObject pauseButton;
     public GameObject fadePanel;
     public GameObject snow;
 
@@ -82,7 +81,6 @@ public class GameManager : MonoBehaviour
 
         playerObject.SetActive(false);
         gameOverPanel.SetActive(true);
-        pauseButton.SetActive(false);
         GameMusic.SetActive(false);
         DeathMusic.SetActive(true);
     }
@@ -120,7 +118,6 @@ public class GameManager : MonoBehaviour
         {
             isGamePaused = true;
             pausePanel.SetActive(true);
-            pauseButton.SetActive(false);
             timeText.gameObject.SetActive(false);
             Time.timeScale = 0;
         }
@@ -128,7 +125,6 @@ public class GameManager : MonoBehaviour
         {
             isGamePaused = false;
             pausePanel.SetActive(false);
-            pauseButton.SetActive(true);
             timeText.gameObject.SetActive(true);
             Time.timeScale = 1;
         }
