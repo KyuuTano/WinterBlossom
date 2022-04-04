@@ -20,6 +20,11 @@ public class ParticleSpeedChanger : MonoBehaviour
         // Invoke("TempSpeedUp", 3f);
     }
 
+    void OnDestroy()
+    {
+        GameManager.OnPowerupCollected -= TempSpeedUp;
+    }
+
     void TempSpeedUp()
     {
         var vol = emitter.velocityOverLifetime;

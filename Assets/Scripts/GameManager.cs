@@ -118,6 +118,7 @@ public class GameManager : MonoBehaviour
 
         //USE THIS FUNCTION AFTER MERGING!!!
         SceneManager.LoadScene("Main");
+        DOTween.KillAll();
     }
 
     public void PauseOrResumeGame()
@@ -144,6 +145,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Title");
+        DOTween.KillAll();
     }
 
     private void RecordHighScore(int highscore)
