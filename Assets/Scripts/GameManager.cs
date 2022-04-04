@@ -9,17 +9,24 @@ public class GameManager : MonoBehaviour
 {
     //[SerializeField] public static bool IsGameOver = false;
     public bool IsGameOver;
+    public bool isGamePaused = false;
     public static Snow Snow { get; set; }
 
     public Text timeText;
     public Text timeTakenText;
+    public Text scoreText;
+    public Text highScoreText;
 
     public double timeStart;
 
     public GameObject gameOverPanel;
+    public GameObject pausePanel;
     public GameObject playerObject;
-    
+    public GameObject pauseButton;
+
     private Camera cam;
+
+    public int scoreMultiplier;
 
     void Start()
     {
@@ -31,15 +38,19 @@ public class GameManager : MonoBehaviour
     {
         float camTop = cam.transform.position.y + cam.orthographicSize;
 
-        if (!IsGameOver && Snow.Height > camTop)
-        {
-            GameOver();
-        }
         if (!IsGameOver)
 		{
+            if (Snow.Height > camTop)
+			{
+                GameOver();
+			}
             timeStart += Time.deltaTime;
             timeText.text = "Time: " + timeStart.ToString("F2");
         }
+
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Space))
+            PauseOrResumeGame();
+        
         
     }
 
@@ -47,10 +58,18 @@ public class GameManager : MonoBehaviour
     {
         IsGameOver = true;
         float totalTime = (float)timeStart;
+        int myscore = Mathf.RoundToInt(totalTime * scoreMultiplier);
+
         timeTakenText.text = "Time: " + totalTime.ToString("F2");
-        Debug.Log("Game over!");
+        scoreText.text = "Score: " + myscore;
+        
+        RecordHighScore(myscore);
+        //Debug.Log("Game over!");
+        highScoreText.text = "High Score: " + PlayerPrefs.GetInt("High Score");
+
         playerObject.SetActive(false);
         gameOverPanel.SetActive(true);
+        pauseButton.SetActive(false);
     }
 
     public void OnRetryClicked()
@@ -60,17 +79,42 @@ public class GameManager : MonoBehaviour
 
     public void OnMainMenuClicked()
 	{
-        SceneManager.LoadScene("Title");
+        QuitGame();
 	}
     
     private void ResetGame()
 	{
-        SceneManager.LoadScene("Main");
-
-        //IsGameOver = false;
-        //gameOverPanel.SetActive(false);
-        //playerObject.gameObject.SetActive(true);
-        //timeStart = 0;
-        
+        // Use this function while merging!!
+        // SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Add Pause Menu, High Score");
     }
+
+	public void PauseOrResumeGame()
+	{
+		if (!isGamePaused)
+		{
+            isGamePaused = true;
+            pausePanel.SetActive(true);
+            pauseButton.SetActive(false);
+            Time.timeScale = 0;
+		} 
+        else
+		{
+            isGamePaused = false;
+            pausePanel.SetActive(false);
+            pauseButton.SetActive(true);
+            Time.timeScale = 1;
+		}
+	}
+
+    public void QuitGame()
+	{
+        SceneManager.LoadScene("Title");
+    }
+
+    private void RecordHighScore(int highscore)
+	{
+        if (highscore > PlayerPrefs.GetInt("High Score"))
+            PlayerPrefs.SetInt("High Score", highscore);
+	}
 }
