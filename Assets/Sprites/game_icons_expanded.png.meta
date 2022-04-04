@@ -1,0 +1,2295 @@
+fileFormatVersion: 2
+guid: 8e4b6da581bef7547997290f2e1211b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6815477925117793086
+    second: sheet_white1x_0
+  - first:
+      213: 4147495328614927465
+    second: sheet_white1x_1
+  - first:
+      213: -8552159506745533364
+    second: sheet_white1x_2
+  - first:
+      213: 1722052043102455254
+    second: sheet_white1x_3
+  - first:
+      213: 7853250876845141922
+    second: sheet_white1x_4
+  - first:
+      213: -8919547584617180429
+    second: sheet_white1x_5
+  - first:
+      213: 5511827941926427188
+    second: sheet_white1x_6
+  - first:
+      213: 884888072209951193
+    second: sheet_white1x_7
+  - first:
+      213: -2767878156335923807
+    second: sheet_white1x_8
+  - first:
+      213: -4545691271991618277
+    second: sheet_white1x_9
+  - first:
+      213: -2367299437163696997
+    second: sheet_white1x_10
+  - first:
+      213: -2997476951892229001
+    second: sheet_white1x_11
+  - first:
+      213: 2607017169387049168
+    second: sheet_white1x_12
+  - first:
+      213: -3639758780915674759
+    second: sheet_white1x_13
+  - first:
+      213: 2714561447890357977
+    second: sheet_white1x_14
+  - first:
+      213: 3979185699268812072
+    second: sheet_white1x_15
+  - first:
+      213: -1291480329956899758
+    second: sheet_white1x_16
+  - first:
+      213: -222379578940218239
+    second: sheet_white1x_17
+  - first:
+      213: -6822966020469563405
+    second: sheet_white1x_18
+  - first:
+      213: 3060002732677461119
+    second: sheet_white1x_19
+  - first:
+      213: -6505366110639557870
+    second: sheet_white1x_20
+  - first:
+      213: -3940035642096623721
+    second: sheet_white1x_21
+  - first:
+      213: 5915132813620845633
+    second: sheet_white1x_22
+  - first:
+      213: 4165392791092488190
+    second: sheet_white1x_23
+  - first:
+      213: -8318938437378452413
+    second: sheet_white1x_24
+  - first:
+      213: 4311927902459360082
+    second: sheet_white1x_25
+  - first:
+      213: 7257596647958558112
+    second: sheet_white1x_26
+  - first:
+      213: -8752919919269664300
+    second: sheet_white1x_27
+  - first:
+      213: -4092578898934179706
+    second: sheet_white1x_28
+  - first:
+      213: -6089858528364348034
+    second: sheet_white1x_29
+  - first:
+      213: -3114143378932988600
+    second: sheet_white1x_30
+  - first:
+      213: -7000410874542931543
+    second: sheet_white1x_31
+  - first:
+      213: 6133647509619053902
+    second: sheet_white1x_32
+  - first:
+      213: -5550657482203255945
+    second: sheet_white1x_33
+  - first:
+      213: 9078192349884651748
+    second: sheet_white1x_34
+  - first:
+      213: -148508425891596205
+    second: sheet_white1x_35
+  - first:
+      213: -3658724282165840062
+    second: sheet_white1x_36
+  - first:
+      213: 745510871882115809
+    second: sheet_white1x_37
+  - first:
+      213: -2161894532643715541
+    second: sheet_white1x_38
+  - first:
+      213: 745312763905422825
+    second: sheet_white1x_39
+  - first:
+      213: 8234913545754151173
+    second: sheet_white1x_40
+  - first:
+      213: 9167317481595404146
+    second: sheet_white1x_41
+  - first:
+      213: 1152794170358909290
+    second: sheet_white1x_42
+  - first:
+      213: 4885734825404273375
+    second: sheet_white1x_43
+  - first:
+      213: -749738581731176933
+    second: sheet_white1x_44
+  - first:
+      213: -7462919894199353396
+    second: sheet_white1x_45
+  - first:
+      213: 4961537298428146891
+    second: sheet_white1x_46
+  - first:
+      213: -1548555784311778005
+    second: sheet_white1x_47
+  - first:
+      213: -3323839353569900357
+    second: sheet_white1x_48
+  - first:
+      213: 3565774975439925183
+    second: sheet_white1x_49
+  - first:
+      213: 1285365900953631929
+    second: sheet_white1x_50
+  - first:
+      213: -8973040132953288832
+    second: sheet_white1x_51
+  - first:
+      213: 5268299937213571473
+    second: sheet_white1x_52
+  - first:
+      213: -8111335551131396057
+    second: sheet_white1x_53
+  - first:
+      213: -887940975850799567
+    second: sheet_white1x_54
+  - first:
+      213: 5432356244612801773
+    second: sheet_white1x_55
+  - first:
+      213: -5928442511534868629
+    second: sheet_white1x_56
+  - first:
+      213: -2400317459953124534
+    second: sheet_white1x_57
+  - first:
+      213: 7270055288907909969
+    second: sheet_white1x_58
+  - first:
+      213: -8433624237236052047
+    second: sheet_white1x_59
+  - first:
+      213: -3769773760827755861
+    second: sheet_white1x_60
+  - first:
+      213: -7999949606625496365
+    second: sheet_white1x_61
+  - first:
+      213: 8626210854219277345
+    second: sheet_white1x_62
+  - first:
+      213: 6647736930256496915
+    second: sheet_white1x_63
+  - first:
+      213: -4050098891530541633
+    second: sheet_white1x_64
+  - first:
+      213: 8937632199197051686
+    second: sheet_white1x_65
+  - first:
+      213: -1478383862783324533
+    second: sheet_white1x_66
+  - first:
+      213: -868583073011021807
+    second: sheet_white1x_67
+  - first:
+      213: -4227149739681927537
+    second: sheet_white1x_68
+  - first:
+      213: 4938216685853906092
+    second: sheet_white1x_69
+  - first:
+      213: 2149012660290148253
+    second: sheet_white1x_70
+  - first:
+      213: -8529728482662565934
+    second: sheet_white1x_71
+  - first:
+      213: 2212515427410247749
+    second: sheet_white1x_72
+  - first:
+      213: -2959330092610465294
+    second: sheet_white1x_73
+  - first:
+      213: 1403848175051269815
+    second: sheet_white1x_74
+  - first:
+      213: 1870136191311992416
+    second: sheet_white1x_75
+  - first:
+      213: 869464240311825352
+    second: sheet_white1x_76
+  - first:
+      213: 4588342983475747815
+    second: sheet_white1x_77
+  - first:
+      213: 3132880920262076082
+    second: sheet_white1x_78
+  - first:
+      213: -1631347020503914758
+    second: sheet_white1x_79
+  - first:
+      213: -9022716057460119248
+    second: sheet_white1x_80
+  - first:
+      213: -569113618106075216
+    second: game_icons_expanded_0
+  - first:
+      213: 4752172885984207651
+    second: game_icons_expanded_1
+  - first:
+      213: -2712425574681287270
+    second: game_icons_expanded_2
+  - first:
+      213: -218947486749500564
+    second: game_icons_expanded_3
+  - first:
+      213: 1540012816443485722
+    second: game_icons_expanded_4
+  - first:
+      213: 6199233292095126224
+    second: game_icons_expanded_5
+  - first:
+      213: 93941601792561717
+    second: game_icons_expanded_6
+  - first:
+      213: -7375989779146343054
+    second: game_icons_expanded_7
+  - first:
+      213: -5116533281659346452
+    second: game_icons_expanded_8
+  - first:
+      213: 6632640295244652649
+    second: game_icons_expanded_9
+  - first:
+      213: -3096145689624411089
+    second: game_icons_expanded_10
+  - first:
+      213: -3073830736039279366
+    second: game_icons_expanded_11
+  - first:
+      213: 246246235473978235
+    second: game_icons_expanded_12
+  - first:
+      213: -4422559396976477996
+    second: game_icons_expanded_13
+  - first:
+      213: 561142832623014152
+    second: game_icons_expanded_14
+  - first:
+      213: 5902051042006890367
+    second: game_icons_expanded_15
+  - first:
+      213: 65225075605964650
+    second: game_icons_expanded_16
+  - first:
+      213: 4919763196280294610
+    second: game_icons_expanded_17
+  - first:
+      213: -7653038233984005843
+    second: game_icons_expanded_18
+  - first:
+      213: 7664766527163271398
+    second: game_icons_expanded_19
+  - first:
+      213: 1883091038055606656
+    second: game_icons_expanded_20
+  - first:
+      213: 1652466230945418482
+    second: game_icons_expanded_21
+  - first:
+      213: 6682342163732993803
+    second: game_icons_expanded_22
+  - first:
+      213: 2063874212093968099
+    second: game_icons_expanded_23
+  - first:
+      213: 5578089005559810912
+    second: game_icons_expanded_24
+  - first:
+      213: -6785178995264620706
+    second: game_icons_expanded_25
+  - first:
+      213: -771614009751594933
+    second: game_icons_expanded_26
+  - first:
+      213: 1597757041110832735
+    second: game_icons_expanded_27
+  - first:
+      213: -3308723172067728438
+    second: game_icons_expanded_28
+  - first:
+      213: 8029339133551082561
+    second: game_icons_expanded_29
+  - first:
+      213: -8472902309062656698
+    second: game_icons_expanded_30
+  - first:
+      213: -2892536983925321568
+    second: game_icons_expanded_31
+  - first:
+      213: -5089974688354598933
+    second: game_icons_expanded_32
+  - first:
+      213: 7663976902551467105
+    second: game_icons_expanded_33
+  - first:
+      213: -8935266682873624981
+    second: game_icons_expanded_34
+  - first:
+      213: -5398902792214395590
+    second: game_icons_expanded_35
+  - first:
+      213: -6159267375840122563
+    second: game_icons_expanded_36
+  - first:
+      213: 5464476929470846417
+    second: game_icons_expanded_37
+  - first:
+      213: -1749396528561809196
+    second: game_icons_expanded_38
+  - first:
+      213: 1765885948846502864
+    second: game_icons_expanded_39
+  - first:
+      213: -8050213036000907767
+    second: game_icons_expanded_40
+  - first:
+      213: 3958574682199431732
+    second: game_icons_expanded_41
+  - first:
+      213: -3513370067874092900
+    second: game_icons_expanded_42
+  - first:
+      213: -3158716913204992628
+    second: game_icons_expanded_43
+  - first:
+      213: 4592307610104515412
+    second: game_icons_expanded_44
+  - first:
+      213: -3196487550370149876
+    second: game_icons_expanded_45
+  - first:
+      213: 273702315492447345
+    second: game_icons_expanded_46
+  - first:
+      213: -2792494726953075830
+    second: game_icons_expanded_47
+  - first:
+      213: -8424462438376571395
+    second: game_icons_expanded_48
+  - first:
+      213: -6085359292547228595
+    second: game_icons_expanded_49
+  - first:
+      213: 7777055283347456884
+    second: game_icons_expanded_50
+  - first:
+      213: -7095942906391429901
+    second: game_icons_expanded_51
+  - first:
+      213: 5856920480250120674
+    second: game_icons_expanded_52
+  - first:
+      213: -1971998534027290103
+    second: game_icons_expanded_53
+  - first:
+      213: 8530060079189558701
+    second: game_icons_expanded_54
+  - first:
+      213: -5928622404758977019
+    second: game_icons_expanded_55
+  - first:
+      213: 9057364262186484183
+    second: game_icons_expanded_56
+  - first:
+      213: 5519850504460503462
+    second: game_icons_expanded_57
+  - first:
+      213: 4519803341427207727
+    second: game_icons_expanded_58
+  - first:
+      213: 8128959400768423197
+    second: game_icons_expanded_59
+  - first:
+      213: -5174411373055458099
+    second: game_icons_expanded_60
+  - first:
+      213: -5641137346474419157
+    second: game_icons_expanded_61
+  - first:
+      213: 632686630714266494
+    second: game_icons_expanded_62
+  - first:
+      213: 2905546168099893717
+    second: game_icons_expanded_63
+  - first:
+      213: 8209851285344919457
+    second: game_icons_expanded_64
+  - first:
+      213: 6634531879745706133
+    second: game_icons_expanded_65
+  - first:
+      213: 4995498296745779068
+    second: game_icons_expanded_66
+  - first:
+      213: 5842020341276816183
+    second: game_icons_expanded_67
+  - first:
+      213: 5370292462706819659
+    second: game_icons_expanded_68
+  - first:
+      213: -3555725687174799204
+    second: game_icons_expanded_69
+  - first:
+      213: 6055239543528837335
+    second: game_icons_expanded_70
+  - first:
+      213: -2252826181843313811
+    second: game_icons_expanded_71
+  - first:
+      213: 8880027327964337602
+    second: game_icons_expanded_72
+  - first:
+      213: -2900247630984966821
+    second: game_icons_expanded_73
+  - first:
+      213: 6104625472651249628
+    second: game_icons_expanded_74
+  - first:
+      213: -1235143569272441106
+    second: game_icons_expanded_75
+  - first:
+      213: 4297772236614998709
+    second: game_icons_expanded_76
+  - first:
+      213: 192542767063110934
+    second: game_icons_expanded_77
+  - first:
+      213: 3425484682391103229
+    second: game_icons_expanded_78
+  - first:
+      213: -6260475845674624243
+    second: game_icons_expanded_79
+  - first:
+      213: -1566147663740091937
+    second: game_icons_expanded_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_icons_expanded_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b733fbfd2a1a18f0800000000000000
+      internalID: -569113618106075216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e45ccf0c13f140800000000000000
+      internalID: 4752172885984207651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ef659f478b5ad0800000000000000
+      internalID: -2712425574681287270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd4dbbb6426fcf0800000000000000
+      internalID: -218947486749500564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea9a94f793f5510800000000000000
+      internalID: 1540012816443485722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dafa1f85d9180650800000000000000
+      internalID: 6199233292095126224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5321a7c936fbd4100800000000000000
+      internalID: 93941601792561717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27df113206833a990800000000000000
+      internalID: -7375989779146343054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 462
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce12b31c61c6ef8b0800000000000000
+      internalID: -5116533281659346452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960eff0153fdb0c50800000000000000
+      internalID: 6632640295244652649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24841d36e74805d0800000000000000
+      internalID: -3096145689624411089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af483be3b3f8755d0800000000000000
+      internalID: -3073830736039279366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7324b085a7da6300800000000000000
+      internalID: 246246235473978235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b62109a9ef92c0800000000000000
+      internalID: -4422559396976477996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80150c6ee6499c700800000000000000
+      internalID: 561142832623014152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f777b0df62c48e150800000000000000
+      internalID: 5902051042006890367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 412
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6701f55cd9b7e000800000000000000
+      internalID: 65225075605964650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc35d9f82864440800000000000000
+      internalID: 4919763196280294610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2986e21642fac590800000000000000
+      internalID: -7653038233984005843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e80fd9fb88be5a60800000000000000
+      internalID: 7664766527163271398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089a6037255122a10800000000000000
+      internalID: 1883091038055606656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc84da284dbee610800000000000000
+      internalID: 1652466230945418482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079be81bc27cbc50800000000000000
+      internalID: 6682342163732993803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee33f839aa54ac10800000000000000
+      internalID: 2063874212093968099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 362
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b87e5856a596d40800000000000000
+      internalID: 5578089005559810912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e577fc937a336d1a0800000000000000
+      internalID: -6785178995264620706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b489a05752daa45f0800000000000000
+      internalID: -771614009751594933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565ac8409f5c2610800000000000000
+      internalID: 1597757041110832735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3accc2ecd0512d0800000000000000
+      internalID: -3308723172067728438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c74749661fd6f60800000000000000
+      internalID: 8029339133551082561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dbbb3cd343a6a80800000000000000
+      internalID: -8472902309062656698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0937d30f4abd7d0800000000000000
+      internalID: -2892536983925321568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 312
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beff4e02df6cc59b0800000000000000
+      internalID: -5089974688354598933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f06b236aeb5a60800000000000000
+      internalID: 7663976902551467105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_34
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b664fe10b4e8ff380800000000000000
+      internalID: -8935266682873624981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35423dd38e3315b0800000000000000
+      internalID: -5398902792214395590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a56274f2e58aa0800000000000000
+      internalID: -6159267375840122563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55d68b0d8b5db40800000000000000
+      internalID: 5464476929470846417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d895cf3025e8b7e0800000000000000
+      internalID: -1749396528561809196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d379d61aefa18810800000000000000
+      internalID: 1765885948846502864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 262
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e62f645e5e74090800000000000000
+      internalID: -8050213036000907767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1a5533beafe630800000000000000
+      internalID: 3958574682199431732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98efd3b9800e3fc0800000000000000
+      internalID: -3513370067874092900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e56af3bbf924d0800000000000000
+      internalID: -3158716913204992628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b4a97b0772bbf30800000000000000
+      internalID: 4592307610104515412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_45
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8a37328bc3a3d0800000000000000
+      internalID: -3196487550370149876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17411294ec26cc300800000000000000
+      internalID: 273702315492447345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_47
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7fc257d01f39d0800000000000000
+      internalID: -2792494726953075830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_48
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 212
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd71f80c0c461b80800000000000000
+      internalID: -8424462438376571395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c991d07f57c8ba0800000000000000
+      internalID: -6085359292547228595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_50
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473008a5396adeb60800000000000000
+      internalID: 7777055283347456884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcf516c585268d90800000000000000
+      internalID: -7095942906391429901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_52
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9c40f3526f74150800000000000000
+      internalID: 5856920480250120674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a56b908cd02a4e0800000000000000
+      internalID: -1971998534027290103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_54
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da585d4a27cd06670800000000000000
+      internalID: 8530060079189558701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064be4855d49bda0800000000000000
+      internalID: -5928622404758977019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_56
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d181f8fec832bd70800000000000000
+      internalID: 9057364262186484183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a901a3d9c27a9c40800000000000000
+      internalID: 5519850504460503462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_58
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e646c213199be30800000000000000
+      internalID: 4519803341427207727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_59
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15cf54818ddfc070800000000000000
+      internalID: 8128959400768423197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_60
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4c94b754cc038b0800000000000000
+      internalID: -5174411373055458099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd33ea877a6b1b0800000000000000
+      internalID: -5641137346474419157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_62
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73dcd57321c7c800800000000000000
+      internalID: 632686630714266494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1771c78d2925820800000000000000
+      internalID: 2905546168099893717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_64
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 112
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af94c11f304fe170800000000000000
+      internalID: 8209851285344919457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5985f37e797921c50800000000000000
+      internalID: 6634531879745706133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fd99dcb33935540800000000000000
+      internalID: 4995498296745779068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_67
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733396c4c86031150800000000000000
+      internalID: 5842020341276816183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b420993ba8c178a40800000000000000
+      internalID: 5370292462706819659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_69
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90e639935687aec0800000000000000
+      internalID: -3555725687174799204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_70
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d05fe56848880450800000000000000
+      internalID: 6055239543528837335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_71
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b978a068a5cb0e0800000000000000
+      internalID: -2252826181843313811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_72
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5531f6ec13c3b70800000000000000
+      internalID: 8880027327964337602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d0972552040c7d0800000000000000
+      internalID: -2900247630984966821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7cd20168cf7b450800000000000000
+      internalID: 6104625472651249628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee678e2c773ebdee0800000000000000
+      internalID: -1235143569272441106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_76
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba19f02411c4ab30800000000000000
+      internalID: 4297772236614998709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6151ed260ac0ca200800000000000000
+      internalID: 192542767063110934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_78
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a67d6b24c98f20800000000000000
+      internalID: 3425484682391103229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_79
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b96a543625e19a0800000000000000
+      internalID: -6260475845674624243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_icons_expanded_80
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 12
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1c6f46ffce34ae0800000000000000
+      internalID: -1566147663740091937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

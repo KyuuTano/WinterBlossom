@@ -11,14 +11,19 @@ public class Player : MonoBehaviour
     public float jumpSpeed = 1.0f;
     public float gravity = -10.0f;
     public bool alwaysJump = false;
+    public bool alwaysUseMouse = false;
+    public AnimationCurve mouseMoveCurve;
+    public float rotationFactor = 1.0f;
 
     [Header("Other")]
     public LayerMask groundLayerMask;
     public int defaultLayer = 0;
     public int jumpingLayer = 0;
     public Transform colliderTransform;
+    public Transform spriteTransform;
 
     private Rigidbody2D rb;
+    private Animator animator;
 
     // for debugging in Editor
     private Vector2 velocity;
@@ -32,6 +37,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -55,6 +61,14 @@ public class Player : MonoBehaviour
 
         // Handle manual movement
         float moveDir = Input.GetAxisRaw("Horizontal");
+
+        if (alwaysUseMouse || Input.GetMouseButton(0))
+        {
+            float mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+            float mouseDeltaX = mouseWorldPos - transform.position.x;
+            moveDir = Mathf.Sign(mouseDeltaX) * mouseMoveCurve.Evaluate(Mathf.Abs(mouseDeltaX));
+        }
+
         if (isGrounded)
         {
             velocity.x = moveDir * moveSpeed;
@@ -62,6 +76,7 @@ public class Player : MonoBehaviour
             if (alwaysJump || Input.GetButton("Jump"))
             {
                 velocity.y = jumpSpeed;
+                animator.SetTrigger("Jump");
             }
         }
         else
@@ -83,6 +98,7 @@ public class Player : MonoBehaviour
         }
 
         colliderTransform.gameObject.layer = velocity.y > GroundedVelocityThreshold ? jumpingLayer : defaultLayer;
+        spriteTransform.localEulerAngles = new Vector3(0.0f, 0.0f, -velocity.x * rotationFactor);
 
         rb.velocity = velocity;
     }

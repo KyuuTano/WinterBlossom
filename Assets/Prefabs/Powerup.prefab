@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7353009286417615902}
   - component: {fileID: 7353009286417615897}
   - component: {fileID: 7353009286417615903}
+  - component: {fileID: -5755817329426341869}
   m_Layer: 9
   m_Name: Powerup
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7353009286417615899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.62, y: 6.05, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa65b4657f7c78047a911a3fb6793147, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +100,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!114 &7353009286417615903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,5 +113,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1df226c49f48444a57ebcde90656f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowHeightDelta: 0
+  snowHeightDelta: -10
   snowRiseSpeedDelta: -3
+  chanceToSpawn: 1
+--- !u!114 &-5755817329426341869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353009286417615899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -775085709
+      Data2: 1224018289
+      Data3: 1130437277
+      Data4: -443093898
+    Path: event:/Sound Effects/Powerup
+  Event: 
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
