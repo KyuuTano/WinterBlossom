@@ -524,12 +524,12 @@ MonoBehaviour:
   timeTakenText: {fileID: 826849447}
   scoreText: {fileID: 2081499745}
   highScoreText: {fileID: 604002484}
-  timeStart: 0
   gameOverPanel: {fileID: 1336295949}
   pausePanel: {fileID: 1966947035}
   playerObject: {fileID: 1184316537}
   pauseButton: {fileID: 1822424859}
   fadePanel: {fileID: 941208541}
+  snow: {fileID: 0}
   scoreMultiplier: 20
   fadeAlphaValue: 150
   GameMusic: {fileID: 1212433221}
@@ -3075,6 +3075,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2894028252372769989, guid: ad47f08543e9e38de8107932ba71fd54, type: 3}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 317403366}
     - target: {fileID: 2894028253324625484, guid: ad47f08543e9e38de8107932ba71fd54, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
