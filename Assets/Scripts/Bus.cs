@@ -12,7 +12,7 @@ public class Bus : MonoBehaviour
     public float busVolume;
     private float volume;
 
-    void Awake()
+    void Start()
     {
         bus = FMODUnity.RuntimeManager.GetBus(busPath);
         SetBusVolume(defaultBusVolume);
